@@ -43,4 +43,34 @@
     .feed-form {
         margin-left: 45px;
     }
+.carousel {
+    display: none;
+}
+.catalog {
+    margin-top: 40px;
+    &__content {
+        display: flex;
+        justify-content: center;
+    }
+    &__tabs {
+        margin-top: 35px;
+        flex-wrap: wrap;
+        
+    }
+    &__tab  {
+        font-size: 14px;
+        width: 150px;
+        &:nth-child(3) {
+            margin-top: 10px;
+        }
+    }
+    &-item {
+        &:nth-child(1) {
+            margin-top: -20px;
+        }
+    }
+    .title {
+        font-size: 25px;
+    }
+}
 }
