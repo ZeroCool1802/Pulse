@@ -73,4 +73,22 @@
         font-size: 25px;
     }
 }
+.feed {
+    &__item {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    &__subtitle {
+        margin-top: 30px;
+    }
+    &__img {
+        margin-top: -30px;
+    }
+}
+.footer {
+    &__info  {
+        width: 100%;
+    }
+}
 }
