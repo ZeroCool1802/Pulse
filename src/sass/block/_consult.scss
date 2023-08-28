@@ -1,7 +1,16 @@
 .consult {
     padding: 100px 0 92px 0;
-    height: 680px;
-    background: url('../Img/bg2.png');
+    min-height: 680px;
+    background: url('../Img/bg2.png') center (center/cover) no-repeat;
+    .error {
+        border: 1px solid red;
+    }
+    label.error {
+        color: #ffffff;
+        border: none;
+        text-align: center;
+        margin-bottom: 15px;
+    }
     &__header {
         color: #ffffff;
         font-size: 36px;

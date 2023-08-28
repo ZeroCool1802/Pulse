@@ -13,6 +13,9 @@
         align-items: center;
         justify-content: space-between;
         margin-top: 65px;
+           
+        
+       
         
         img {
             display: block;
@@ -43,5 +46,15 @@
             text-decoration: underline;
         }
     }
-    
+    &__icon {
+        &_animated {
+            animation-name: heartbeat;
+            animation-duration: 1.5s;
+            animation-timing-function: ease;
+            animation-iteration-count: infinite;
+            &:hover {
+                animation-play-state: paused;
+            }
+        }
+    }
 }
